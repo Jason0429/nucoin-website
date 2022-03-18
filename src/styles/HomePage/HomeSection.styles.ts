@@ -32,7 +32,11 @@ export const Moon = styled("img")`
 	position: absolute;
 	top: 10px;
 	right: 10px;
-	z-index: 0;
+	z-index: 101;
+
+	@media screen and (max-width: 768px) {
+		top: 70px;
+	}
 `;
 
 export const Rocket = styled("img")`
@@ -41,6 +45,14 @@ export const Rocket = styled("img")`
 	bottom: 0;
 	right: 20px;
 	z-index: 0;
+
+	@media screen and (max-width: 850px) {
+		height: 60%;
+	}
+
+	@media screen and (max-width: 600px) {
+		display: none;
+	}
 `;
 
 export const TextContainer = styled("div")`
@@ -48,11 +60,23 @@ export const TextContainer = styled("div")`
 	padding: 80px;
 	width: 100%;
 	z-index: 10;
+
+	@media screen and (max-width: 768px) {
+		padding: 20px;
+	}
 `;
 
 export const Heading1 = styled("div")`
 	font-weight: 500;
-	font-size: 2.5em;
+	font-size: 3.3em;
+
+	@media screen and (max-width: 768px) {
+		font-size: 2.5em;
+	}
+
+	@media screen and (max-width: 400px) {
+		font-size: 2.2em;
+	}
 `;
 
 export const Heading2 = styled("div")`
@@ -60,18 +84,22 @@ export const Heading2 = styled("div")`
 	font-size: 1em;
 	color: #cccccc;
 `;
-
-export const PancakeSwapPromo = styled("div")`
-	display: flex;
-	flex-direction: column;
-`;
-
 export const PancakeSwap = styled("img")`
-	height: 100%;
+	object-fit: contain;
+	height: 40px;
+
+	@media screen and (max-width: 768px) {
+		height: 30px;
+	}
 `;
 
 export const PancakeSwapText = styled("img")`
-	height: 60%;
+	object-fit: contain;
+	height: 35px;
+
+	@media screen and (max-width: 768px) {
+		height: 30px;
+	}
 `;
 
 export const Text1 = styled("div")`
@@ -80,5 +108,24 @@ export const Text1 = styled("div")`
 `;
 
 export const Disrupt = styled("img")`
-	width: 200px;
+	height: 100%;
+
+	@media screen and (max-width: 768px) {
+		height: 60px;
+	}
+`;
+
+export const DisruptPromo = styled("div")`
+	display: flex;
+	flex-direction: column;
+	width: fit-content;
+	height: fit-content;
+	position: absolute;
+	bottom: 50px;
+	left: 80px;
+
+	@media screen and (max-width: 768px) {
+		left: 20px;
+		bottom: 20px;
+	}
 `;

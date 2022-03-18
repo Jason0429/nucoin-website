@@ -11,8 +11,13 @@ export const Container = styled("div")`
 	justify-content: space-between;
 	/* border: thin solid white; */
 	padding: 0 80px;
+	background: #000000;
 	color: #ffffff;
 	z-index: 100;
+
+	@media screen and (max-width: 768px) {
+		padding: 0 10px;
+	}
 `;
 
 export const Logo = styled("div")`
@@ -46,4 +51,10 @@ export const Button = styled("div")`
 	background: #ffffff;
 	color: #000000;
 	cursor: pointer;
+
+	@media screen and (max-width: 768px) {
+		position: relative;
+		left: 0;
+		transform: none;
+	}
 `;
