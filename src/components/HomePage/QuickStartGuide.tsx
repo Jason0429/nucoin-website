@@ -1,8 +1,8 @@
 import * as Styles from "../../styles/HomePage/QuickStartGuide.styles";
 import { Fade } from "react-awesome-reveal";
-import info from "../../data/info.json";
+import info from "../../data/info";
 import DisruptDots from "../../img/disrupt-dots.svg";
-import { Accordion, AccordionDetails, AccordionSummary, Typography } from "@mui/material";
+import { Accordion, AccordionDetails, AccordionSummary } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 function QuickStartGuide() {
