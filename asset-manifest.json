@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/nucoin-website/static/css/main.99ab1f2f.css",
-    "main.js": "/nucoin-website/static/js/main.a298edbc.js",
+    "main.js": "/nucoin-website/static/js/main.279e7a2b.js",
     "static/js/787.e76fa293.chunk.js": "/nucoin-website/static/js/787.e76fa293.chunk.js",
     "static/media/moon.svg": "/nucoin-website/static/media/moon.a083ffd1012e9b46daba34c8f494e76e.svg",
     "static/media/rocket.svg": "/nucoin-website/static/media/rocket.6ce6b1d983b7470a0721b5db41692bda.svg",
+    "static/media/manav.jpg": "/nucoin-website/static/media/manav.db3e12919bc00792f873.jpg",
+    "static/media/shaan.jpeg": "/nucoin-website/static/media/shaan.21b780a1648809677982.jpeg",
     "static/media/disrupt-dots.svg": "/nucoin-website/static/media/disrupt-dots.feccf1ccbf7d0cd28cfb751526d6f3b3.svg",
     "static/media/disrupt.svg": "/nucoin-website/static/media/disrupt.ff6243f2d5662163c7a077ce3fd9e911.svg",
     "static/media/pancakeswap-text.svg": "/nucoin-website/static/media/pancakeswap-text.175cc5bad415b64eac8cef22babc3ae3.svg",
@@ -12,11 +14,11 @@
     "static/media/pancakeswap.svg": "/nucoin-website/static/media/pancakeswap.ef1651030d225224d738fb836940e2a8.svg",
     "index.html": "/nucoin-website/index.html",
     "main.99ab1f2f.css.map": "/nucoin-website/static/css/main.99ab1f2f.css.map",
-    "main.a298edbc.js.map": "/nucoin-website/static/js/main.a298edbc.js.map",
+    "main.279e7a2b.js.map": "/nucoin-website/static/js/main.279e7a2b.js.map",
     "787.e76fa293.chunk.js.map": "/nucoin-website/static/js/787.e76fa293.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.99ab1f2f.css",
-    "static/js/main.a298edbc.js"
+    "static/js/main.279e7a2b.js"
   ]
 }
